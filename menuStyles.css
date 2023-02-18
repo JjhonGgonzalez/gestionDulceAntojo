@@ -7,11 +7,69 @@
     box-sizing: border-box;
     font-family: 'Patrick Hand', cursive;
 }
+
 #fondo{
     width: 90%;
     margin-left: 100px;
     height: 85vh;
 
+}
+.txt {
+    position: absolute;
+    top: 17%;
+    left: 19%;
+    transform: translate(2%);
+    font-size: medium;
+    font-size: 20px;
+    white-space:pre-line;
+    font-size: 0.6cm;
+
+}
+.acerca {
+    padding: 35px;
+    font-size: xx-large;
+}
+.img
+{
+    position: absolute;
+    width: 300px;
+    height: 320px;
+    object-fit: cover;
+    top: 40%;
+    left: 15%;
+    margin-right: 25px;
+    
+}
+.img1 {
+    position: absolute;
+    width: 300px;
+    height: 320px;
+    object-fit: cover;
+    top: 40%;
+    right: 35.1%;
+    margin: 0px 23px;
+
+}
+.img2 {
+    position: absolute;
+    width: 300px;
+    height: 320px;
+    object-fit: cover;
+    top: 40%;
+    right: 10%;
+    margin-right: 20px;
+}
+.img1:hover{
+    transform: scale(0.9);
+    border-radius: 50px;
+}
+.img:hover{
+    transform: scale(0.9);
+    border-radius: 50px;
+}
+.img2:hover{
+    transform: scale(0.9);
+    border-radius: 50px;
 }
 nav{
     position: absolute;
@@ -27,7 +85,6 @@ nav{
     border-radius: 5px;
 }
 .logo1{
-
     display: flex;
     transition:all 0.5s ease;
     margin: 2px 0 0 2px;
@@ -36,9 +93,7 @@ nav{
     width: 74px;
     height: 79px;
     top: -3px;
-
 }
-
 .logo1 span {
     font-style: italic;
     font-size: 38px;   
@@ -109,6 +164,11 @@ header {
     width: 100%;
     box-shadow: 0 20px 35px rgba(0, 0, 0, 0.3);
 }
+.acerca {
+    text-align:center; 
+    display:grid;
+}
+
 .logout {
     position: absolute;
     bottom: 0;
