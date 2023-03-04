@@ -1,0 +1,73 @@
+.acerca {
+  padding: 35px;
+  font-size: xx-large;
+}
+.txt {
+  position: absolute;
+  top: 17%;
+  left: 19%;
+  transform: translate(2%);
+  font-size: medium;
+  font-size: 20px;
+  white-space: pre-line;
+  font-size: 0.6cm;
+
+}
+.img {
+  position: absolute;
+  width: 300px;
+  height: 320px;
+  object-fit: cover;
+  top: 43%;
+  left: 15%;
+  margin-right: 25px;
+
+}
+
+.img1 {
+  position: absolute;
+  width: 300px;
+  height: 320px;
+  object-fit: cover;
+  top: 43%;
+  right: 35.1%;
+  margin: 0px 23px;
+
+}
+
+.img2 {
+  position: absolute;
+  width: 300px;
+  height: 320px;
+  object-fit: cover;
+  top: 43%;
+  right: 10%;
+  margin-right: 20px;
+}
+
+.img1:hover {
+  transform: scale(0.9);
+  border-radius: 50px;
+}
+
+.img:hover {
+  transform: scale(0.9);
+  border-radius: 50px;
+}
+
+.img2:hover {
+  transform: scale(0.9);
+  border-radius: 50px;
+}
+.acerca {
+  text-align: center;
+  display: grid;
+}
+.backnos{
+  background-image: url(/assets/nosotros.png);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
