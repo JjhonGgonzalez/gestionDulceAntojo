@@ -13,51 +13,43 @@
   font-size: 0.6cm;
 
 }
-.img {
-  position: absolute;
-  width: 300px;
-  height: 320px;
-  object-fit: cover;
-  top: 43%;
-  left: 15%;
-  margin-right: 25px;
 
+.container-card{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.img1 {
-  position: absolute;
+.card{
   width: 300px;
   height: 320px;
-  object-fit: cover;
-  top: 43%;
-  right: 35.1%;
-  margin: 0px 23px;
-
+  margin: 25px;
+  padding: 0px;
+  border: 2px solid #eeeeee;
+  border-radius: 14px;
+  margin-top: 220px;
+  position: relative;
 }
 
-.img2 {
-  position: absolute;
-  width: 300px;
-  height: 320px;
-  object-fit: cover;
-  top: 43%;
-  right: 10%;
-  margin-right: 20px;
+.card img{
+  width: 100%;
+  height: 100%;
 }
 
 .img1:hover {
   transform: scale(0.9);
-  border-radius: 50px;
-}
-
-.img:hover {
-  transform: scale(0.9);
-  border-radius: 50px;
+  border-radius: 15px;
 }
 
 .img2:hover {
   transform: scale(0.9);
-  border-radius: 50px;
+  border-radius: 15px;
+}
+
+.img3:hover {
+  transform: scale(0.9);
+  border-radius: 15px;
 }
 .acerca {
   text-align: center;
@@ -70,4 +62,76 @@
   background-size: 100% 100%;
   background-position: center;
 }
+
+/*Responsive Texto*/
+
+@media screen and (max-width:1200px){
+  .txt {
+    position: absolute;
+    padding: 0px 20px;
+    max-width: 750px;
+    top: 17%;
+    text-align: justify;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width:768px){
+  .txt{
+    padding: 0px 20px;
+    position: absolute;
+    max-width:530px;
+    top: 13%;
+    text-align: justify;
+    font-size: 18.7px;
+    white-space: pre-line  
+    
+  }
+}
+  @media screen and (max-width:600px){
+    .txt{
+      top: 11%;
+      position: absolute;
+     max-width: 380px;
+      padding: 0px 20px;
+      text-align: justify;
+      font-size: 17.2px;
+      
+    }
+}
+
+/*Responsive cards*/
+@media screen and (max-width:1200px){
+   .card, .card img{
+  max-width: 750px;
+  width: 200px;
+  height: 190px;
+  display: flex;
+  flex-wrap: wrap;
+  top: 50%;
+  justify-content: center;
+
+}
+}
+@media screen and (max-width:768px){ 
+  .card, .card img{
+    max-width: 550px;
+    width: 190px;
+    height: 190px;
+    display: flex;
+    flex-wrap: wrap;
+    top: 50%;
+    justify-content: center;
+}
+}
+@media screen and (max-width:600x){
+  .card, .card img{
+    max-width: 300px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+  }
+  }
 
